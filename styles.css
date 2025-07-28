@@ -1,0 +1,55 @@
+
+body {
+    font-family: 'Impact', fantasy;
+    background-color: #fbe9e7;
+    color: #bf360c;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff8a65;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background: white;
+    border-radius: 10px;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.project h3 {
+    color: #d84315;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #d84315;
+    color: white;
+}
